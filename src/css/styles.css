@@ -16,3 +16,57 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+
+
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 1128px;
+  gap: 24px;
+  margin: 0 auto;
+}
+
+.gallery-image {
+  display: block;
+  width: 360px;
+  height: 200px;
+}
+
+.feedback-form{
+  display: flex;
+  flex-direction: column;
+  width: 408px;
+  height: 296px;
+  margin: 0 auto;
+  padding: 24px;
+
+}
+
+.email-label,.message-label{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.input-email{
+  height: 40px;
+
+}
+
+.input-message{
+height: 80px;
+resize: none;
+}
+
+.form-btn{
+width: 95px;
+height: 40px;
+background-color: #4E75FF;
+color: #fff;
+border: none;
+border-radius: 8px;
+}
